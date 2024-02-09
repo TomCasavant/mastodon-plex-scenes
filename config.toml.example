@@ -1,0 +1,20 @@
+[Video]
+show='Community'
+threshold=3.2
+min_scene_length=600
+max_duration=1400
+min_duration=120
+# Estimate 24fps, 600/24 = 25 seconds, 1400/24 = ~58 seconds, 120/24 = 5 seconds
+
+[Mastodon]
+server='https://tomkahe.com'
+access_token=''
+
+[Plex]
+username='example@example.com'
+password='thisismypassword'
+server='tomservo'
+library='TV Shows'
+
+[General]
+keep_files=false #TODO: Store files after use (faster post times, no need to download. More storage use)
